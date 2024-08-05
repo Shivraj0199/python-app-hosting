@@ -7,4 +7,4 @@
 
 (myenv): 1]sudo nano requirements.txt
 	 2]pip3 install -r requirements.txt
-	 3]gunicorn --bind 0.0.0.0:5000
+	 3]gunicorn --bind 0.0.0.0:5000 app:app
