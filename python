@@ -1,0 +1,10 @@
+1]sudo apt-get update -y
+2]mkdir myapp
+3]cd myapp
+4](install) sudo apt-get install python3-venv
+4](create env) python3 -m venv myenv
+5](activate env) source myenv/bin/activate
+
+(myenv): 1]sudo nano requirements.txt
+	 2]pip3 install -r requirements.txt
+	 3]gunicorn --bind 0.0.0.0:5000
